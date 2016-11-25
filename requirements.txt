@@ -1,0 +1,7 @@
+oslosphinx>=2.2.0.0a2
+pbr>=0.6,!=0.7,<1.0
+sphinx>=1.1.2,<1.2
+sphinx_rtd_theme
+testrepository>=0.0.18
+testtools>=0.9.34
+yasfb>=0.5.1
