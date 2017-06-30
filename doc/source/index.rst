@@ -4,6 +4,16 @@
 Cloudkitty Project Specifications
 =================================
 
+Pike
+====
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/pike/*
+
+
 Ocata
 =====
 
