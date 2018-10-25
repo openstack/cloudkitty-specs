@@ -1,10 +1,10 @@
-==================================
+===================================
 OpenStack Cloudkitty Specifications
-==================================
+===================================
 
 This git repository is used to hold approved design specifications for additions
-to the Cloudkitty project. Reviews of the specs are done in gerrit, using a similar
-workflow to how we review and merge changes to the code itself.
+to the Cloudkitty project. Reviews of the specs are done in gerrit, using a
+similar workflow to how we review and merge changes to the code itself.
 
 The layout of this repository is::
 
@@ -14,23 +14,12 @@ You can find an example spec in `specs/template.rst`.
 
 Specifications are proposed for a given release by adding them to the
 `specs/<release>` directory and posting it for review.  The implementation
-status of a blueprint for a given release can be found by looking at the
-blueprint in launchpad.  Not all approved blueprints will get fully implemented.
+status of a story for a given release can be found by looking at the
+story in Storyboard. Not all stories will get fully implemented.
 
-Specifications have to be re-proposed for every release.  The review may be
+Specifications have to be re-proposed for every release. The review may be
 quick, but even if something was previously approved, it should be re-reviewed
 to make sure it still makes sense as written.
-
-Prior to the Ocata development cycle, this repository was not used for spec
-reviews.  Reviews prior to Ocata were completed entirely through Launchpad
-blueprints::
-
-  http://blueprints.launchpad.net/cloudkitty
-
-Please note, Launchpad blueprints are still used for tracking the
-current status of blueprints. For more information, see::
-
-  https://wiki.openstack.org/wiki/Blueprints
 
 For more information about working with gerrit, see::
 

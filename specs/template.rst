@@ -4,13 +4,13 @@
 
  http://creativecommons.org/licenses/by/3.0/legalcode
 
-==========================================
-Example Spec - The title of your blueprint
-==========================================
+======================================
+Example Spec - The title of your story
+======================================
 
-Include the URL of your launchpad blueprint:
+Include the URL of your Storyboard story:
 
-https://blueprints.launchpad.net/cloudkitty/+spec/example
+https://storyboard.openstack.org/#!/project_group/66
 
 Introduction paragraph -- why are we doing anything? A single paragraph of
 prose that operators can understand.
@@ -20,10 +20,6 @@ Some notes about using this template:
 * Your spec should be in ReSTructured text, like this template.
 
 * Please wrap text at 79 columns.
-
-* The filename in the git repository should match the launchpad URL, for
-  example a URL of: https://blueprints.launchpad.net/cloudkitty/+spec/awesome-thing
-  should be named awesome-thing.rst
 
 * Please do not delete any of the sections in this template.  If you have
   nothing to say for a whole section, just write: None
@@ -179,8 +175,8 @@ to the OpenStack Security Group at openstack-security@lists.openstack.org.
 Notifications Impact
 ----------------------------
 
-Please specify any changes to notifications or auditing. Be that an extra notification,
-changes to an existing notification, or removing a notification.
+Please specify any changes to notifications or auditing. Be that an extra
+notification, changes to an existing notification, or removing a notification.
 
 Other end user impact
 ---------------------
@@ -201,7 +197,8 @@ pattern of existing code.
 Examples of things to consider here include:
 
 * A periodic task might look like a small addition but when considering large
-  scale deployments the proposed call may in fact be performed on hundreds of nodes.
+  scale deployments the proposed call may in fact be performed on hundreds
+  of nodes.
 
 * A small change in a utility function or a commonly used decorator can have a
   large impacts on performance.
@@ -218,8 +215,9 @@ Other deployer impact
 Discuss things that will affect how you deploy and configure OpenStack
 that have not already been mentioned, such as:
 
-* What config options are being added? Should they be more generic than proposed?
-  Are the default values ones which will work well in real deployments?
+* What config options are being added? Should they be more generic than
+  proposed? Are the default values ones which will work well in
+  real deployments?
 
 * Is this a change that takes immediate effect after its merged, or is it
   something that has to be explicitly enabled?
@@ -252,17 +250,17 @@ Implementation
 Assignee(s)
 -----------
 
-Who is leading the writing of the code? Or is this a blueprint where you're
+Who is leading the writing of the code? Or is this a story where you're
 throwing it out there to see who picks it up?
 
 If more than one person is working on the implementation, please designate the
 primary author and contact.
 
 Primary assignee:
-  <launchpad-id or None>
+  <gerrit-id/IRC nick or None>
 
 Other contributors:
-  <launchpad-id or None>
+  <gerrit-id/IRC nick or None>
 
 Work Items
 ----------
@@ -271,12 +269,13 @@ Work items or tasks -- break the feature up into the things that need to be
 done to implement it. Those parts might end up being done by different people,
 but we're mostly trying to understand the timeline for implementation.
 
+In your Storyboard story, create one task per work item detailed here.
 
 Dependencies
 ============
 
-* Include specific references to specs and/or blueprints in Cloudkitty, or in other
-  projects, that this one either depends on or is related to.
+* Include specific references to specs and/or stories/tasks in Cloudkitty, or
+  in other projects, that this one either depends on or is related to.
 
 * If this requires functionality of another project that is not currently used
   by Cloudkitty, document that fact.
@@ -288,10 +287,10 @@ Dependencies
 Testing
 =======
 
-Please discuss how the change will be tested. We especially want to know what
-tempest tests will be added. It is assumed that unit test coverage will be
-added so that doesn't need to be mentioned explicitly, but discussion of why
-you think unit tests are sufficient and we don't need to add more tempest
+Please discuss how the change will be tested. Detail howe you intend to test
+this (unit tests only ? with tempest ?). It is assumed that unit test coverage
+will be added so that doesn't need to be mentioned explicitly, but discussion
+of why you think unit tests are sufficient and we don't need to add more tempest
 tests would need to be included.
 
 Is this untestable in gate given current limitations (specific hardware /
