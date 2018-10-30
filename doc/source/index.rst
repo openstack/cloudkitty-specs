@@ -4,6 +4,16 @@
 Cloudkitty Project Specifications
 =================================
 
+Stein
+=====
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/stein/*
+
+
 Pike
 ====
 
