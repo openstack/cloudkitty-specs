@@ -33,7 +33,6 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.todo',
               'sphinx.ext.viewcode',
               'openstackdocstheme',
-              'yasfb',
              ]
 
 # Feed configuration for yasfb
