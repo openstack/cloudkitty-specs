@@ -173,7 +173,7 @@ security best practices.  For further information, feel free to reach out
 to the OpenStack Security Group at openstack-security@lists.openstack.org.
 
 Notifications Impact
-----------------------------
+--------------------
 
 Please specify any changes to notifications or auditing. Be that an extra
 notification, changes to an existing notification, or removing a notification.
