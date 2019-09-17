@@ -33,6 +33,7 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.todo',
               'sphinx.ext.viewcode',
               'openstackdocstheme',
+              'sphinxcontrib.rsvgconverter',
              ]
 
 # Feed configuration for yasfb
@@ -179,22 +180,22 @@ htmlhelp_basename = 'Cloudkitty-Specsdoc'
 
 # -- Options for LaTeX output --------------------------------------------------
 
+# Disable usage of xindy https://bugzilla.redhat.com/show_bug.cgi?id=1643664
+latex_use_xindy = False
+
+latex_domain_indices = False
+
 latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
-
-# The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
-
-# Additional stuff for the LaTeX preamble.
-#'preamble': '',
+    'makeindex': '',
+    'printindex': '',
+    'preamble': r'\setcounter{tocdepth}{3}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Cloudkitty-specs.tex', u'Cloudkitty Specs',
-   u'OpenStack Cloudkitty Team', 'manual'),
+    ('index', 'doc-cloudkitty-specs.tex', u'Cloudkitty Specs',
+     u'OpenStack Cloudkitty Team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
