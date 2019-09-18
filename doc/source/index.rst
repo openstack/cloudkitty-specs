@@ -4,6 +4,15 @@
 Cloudkitty Project Specifications
 =================================
 
+Ussuri
+======
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/ussuri/*
+
 Train
 =====
 
@@ -42,6 +51,7 @@ Ocata
    :maxdepth: 1
 
    specs/ocata/*
+
 
 ==================
 Indices and tables
