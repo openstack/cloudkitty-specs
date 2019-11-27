@@ -185,10 +185,10 @@ Performance Impact
 
 On most benchmarks (and from what could be determined from POCs), data insertion
 into Elasticsearch is slower than insertion into InfluxDB. However,
-Elasticsearch is faster for aggreations. However, once CloudKitty has caught
+Elasticsearch is faster for aggregations. However, once CloudKitty has caught
 up with the current timestamp, not many insertions are required. Moreover,
 Elasticsearch's support for clustering and for tuning should allow for a
-better overall perfomance in the end.
+better overall performance in the end.
 
 Other deployer impact
 ---------------------

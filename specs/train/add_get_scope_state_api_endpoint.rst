@@ -10,7 +10,7 @@ Add a v2 API endpoint to retrieve the state of different scopes
 
 https://storyboard.openstack.org/#!/story/2005395
 
-.. note:: This spec is the detailled implementation of one part of a
+.. note:: This spec is the detailed implementation of one part of a
           larger spec. If you haven't read it yet, please see
           https://review.opendev.org/#/c/657393/
 
