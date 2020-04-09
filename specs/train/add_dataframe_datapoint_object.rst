@@ -216,14 +216,14 @@ Implementation
 ==============
 
 Assignee(s)
------------
++++++++++++
 
 Primary assignee:
 
   peschk_l
 
 Work Items
-----------
+++++++++++
 
 * Create validation utils that will allow to check the datapoint/dataframe
   format.

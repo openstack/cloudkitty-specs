@@ -71,7 +71,7 @@ The endpoint will support the following body parameters:
 Inside the body of the request, a collection of DataFrame json objects
 can be specified as follows:
 
-.. code-block:: javascript
+.. code-block:: none
 
   {
     "dataframes": [
