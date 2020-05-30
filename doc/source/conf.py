@@ -35,7 +35,7 @@ extensions = ['sphinx.ext.autodoc',
              ]
 
 # Feed configuration for yasfb
-feed_base_url = 'http://specs.openstack.org/openstack/cloudkitty-specs'
+feed_base_url = 'https://specs.openstack.org/openstack/cloudkitty-specs'
 feed_author = 'OpenStack Cloudkitty Team'
 
 todo_include_todos = True
@@ -271,3 +271,9 @@ epub_copyright = u'2014, OpenStack Cloudkitty Team'
 
 # Allow duplicate toc entries.
 #epub_tocdup = True
+
+# -- Options for openstackdocstheme -------------------------------------------
+openstackdocs_repo_name = 'openstack/cloudkitty-specs'
+openstackdocs_auto_name = False
+openstackdocs_use_storyboard = True
+openstackdocs_pdf_link = True
