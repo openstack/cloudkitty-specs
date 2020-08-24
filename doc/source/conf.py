@@ -15,8 +15,6 @@ import datetime
 import os
 import sys
 
-import openstackdocstheme
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -105,8 +103,6 @@ man_pages = []
 # a list of builtin themes.
 # html_theme = 'nature'
 html_theme = "openstackdocs"
-html_theme_path = [openstackdocstheme.get_html_theme_path()]
-
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -131,11 +127,6 @@ html_theme_options = {}
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 #html_favicon = None
-
-# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
-# using the given strftime format.
-git_cmd = "git log --pretty=format:'%ad, commit %h' --date=local -n1"
-html_last_updated_fmt = os.popen(git_cmd).read()
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
