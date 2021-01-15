@@ -4,6 +4,15 @@
 Cloudkitty Project Specifications
 =================================
 
+Wallaby
+=======
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/wallaby/*
+
 Ussuri
 ======
 
