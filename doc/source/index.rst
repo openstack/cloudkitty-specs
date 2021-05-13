@@ -4,6 +4,16 @@
 Cloudkitty Project Specifications
 =================================
 
+Yoga
+=======
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/yoga/*
+
+
 Wallaby
 =======
 
