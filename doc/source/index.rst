@@ -4,6 +4,15 @@
 Cloudkitty Project Specifications
 =================================
 
+Antelope
+========
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/antelope/*
+
 Yoga
 =======
 
