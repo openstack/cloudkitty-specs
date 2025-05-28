@@ -4,6 +4,15 @@
 Cloudkitty Project Specifications
 =================================
 
+Flamingo
+========
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/flamingo/*
+
 Antelope
 ========
 
