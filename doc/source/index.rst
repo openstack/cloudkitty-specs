@@ -4,6 +4,15 @@
 Cloudkitty Project Specifications
 =================================
 
+Gazpacho
+========
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/gazpacho/*
+
 Flamingo
 ========
 
