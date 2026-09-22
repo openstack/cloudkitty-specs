@@ -4,6 +4,15 @@
 Cloudkitty Project Specifications
 =================================
 
+Indri
+=====
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/indri/*
+
 Gazpacho
 ========
 
